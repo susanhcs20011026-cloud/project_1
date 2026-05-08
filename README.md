@@ -2,8 +2,6 @@ Digital Marketing Conversion Dashboard
 A Streamlit dashboard that explores what drives customer conversion in digital marketing campaigns.
 
 
-Dataset
-
 Source: Kaggle — Predict Conversion in Digital Marketing Dataset
 Size: 8,000 customers, 20 features
 Key columns:
