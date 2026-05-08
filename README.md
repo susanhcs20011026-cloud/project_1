@@ -1,12 +1,6 @@
 Digital Marketing Conversion Dashboard
 A Streamlit dashboard that explores what drives customer conversion in digital marketing campaigns.
 
-Project Structure
-project_1/
-├── app.py
-├── digital_marketing_campaign_dataset_2.csv
-├── requirements.txt
-└── README.md
 
 Dataset
 
