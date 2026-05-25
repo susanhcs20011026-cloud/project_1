@@ -210,11 +210,3 @@ AI tools were used to assist with:
 * brainstorming visualization ideas
 * improving narrative explanations
 * organizing project structure
-
-All final coding decisions, analytical interpretations, visualization selections, and project organization were reviewed and finalized independently by the author.
-
-
-# Author
-
-Susan Huang
-Data Visualization Final Project
