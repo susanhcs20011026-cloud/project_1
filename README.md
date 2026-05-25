@@ -1,3 +1,5 @@
+Note: The project write-up, findings, methodology, outlook, and collaboration statement are integrated directly into the Streamlit dashboard interface.
+
 # Digital Marketing Conversion Dashboard
 
 An interactive Streamlit dashboard that explores what drives customer conversion in digital marketing campaigns through engagement analysis, channel performance evaluation, statistical testing, and customer segmentation.
