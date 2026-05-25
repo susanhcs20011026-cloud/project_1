@@ -1,3 +1,5 @@
+Note: The project write-up, findings, methodology, outlook, and collaboration statement are integrated directly into the Streamlit dashboard interface.
+
 # Digital Marketing Conversion Dashboard
 
 An interactive Streamlit dashboard that explores what drives customer conversion in digital marketing campaigns through engagement analysis, channel performance evaluation, statistical testing, and customer segmentation.
@@ -202,11 +204,11 @@ Given additional time and resources, future extensions could include:
 # Collaboration Statement
 
 This project was completed independently with the assistance of AI tools including ChatGPT and Claude.
-
 AI tools were used to assist with:
-
 * debugging Streamlit and Plotly code
 * refining dashboard styling and layout
-* brainstorming visualization ideas
-* improving narrative explanations
 * organizing project structure
+* One of the major improvements in the final version was the addition of dynamically generated findings and outlook sections. Instead of displaying static written summaries, the dashboard automatically recalculates correlations, conversion gaps, ROAS, CAC, funnel drop-off rates, and segmentation statistics based on the user’s selected filters. Claude AI was used to assist in implementing portions of this dynamic narrative generation logic, including the integration of calculated metrics into Streamlit markdown components using Python f-strings. This transformed the dashboard from a static visualization project into a more interactive analytical storytelling system.
+* The initial version of the dashboard focused primarily on three basic marketing visualizations: engagement vs conversion, channel ROI, and funnel analysis. With assistance from Claude AI for statistical analysis logic and advanced dashboard features, the final version expanded to include channel drill-down analysis, A/B significance testing, ROAS & CAC evaluation, K-Means customer segmentation, radar charts, and dynamic insight generation. These additions transformed the project from a basic marketing dashboard into a more advanced analytical and statistical decision-support system focused on customer behavior, marketing efficiency, and segmentation insights.
+* Initially, the dashboard used raw TimeOnSite values directly in the visualization. After reviewing the first chart, it became difficult to identify broader engagement trends because the data was too granular. Following GPT’s suggestion, the final version grouped users into pandas-generated intervals (pd.qcut) and calculated the average conversion rate for each group. This made the relationship between engagement and conversion behavior much clearer.
+* K-Means clustering was a new concept and visualization approach that I learned with assistance from Claude AI during the development process. Claude helped explain how behavioral segmentation works and how clustering could be used to identify distinct customer groups based on engagement patterns. All final coding decisions, analytical interpretations, and visualization selections were reviewed and finalized independently by the author.
