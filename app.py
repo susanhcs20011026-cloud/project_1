@@ -620,6 +620,11 @@ Third, build a <b>segment-specific re-engagement campaign</b> targeting the {ar_
 even recovering 10% of them to Mid-active status would add approximately
 <b>{int(ar_count * 0.10 * (hv_conv - ar_conv)):,} incremental conversions</b>
 based on current segment conversion rates.
+<br><br>
+If given additional time and resources, this project could be expanded using real-world marketing data from large companies such as Amazon or Target.  
+Access to larger datasets would allow for more accurate analysis of customer engagement, conversion behavior, ROAS, CAC, and long-term customer retention patterns across different marketing channels.  
+Future versions could include real-time campaign tracking, personalized recommendation systems based on customer segments, and automated A/B testing to support more advanced marketing decision-making and budget optimization.
+
 </div>
 """, unsafe_allow_html=True)
 
